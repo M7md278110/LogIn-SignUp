@@ -29,17 +29,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
+a:hover {text-decoration: none;}
 
-.link {
-    color: #c4c3ca;
-}
+.link {color: #c4c3ca;}
 
-.link:hover {
-    color: #ffeba7;
-}
+.link:hover {color: #ffeba7;}
 
 p {
     font-weight: 500;
@@ -47,10 +41,7 @@ p {
     line-height: 1.7;
 }
 
-h4 {
-    font-weight: 600;
-    font-size: 20px;
-}
+h4 {font-weight: 600; font-size: 20px;}
 
 h6 span {
     padding: 0 20px;
@@ -65,15 +56,10 @@ h6 span {
     display: block;
 }
 
-.full-height {
-    height: 100vh;
-}
+.full-height {height: 100vh;}
 
 [type=checkbox]:checked,
-[type=checkbox]:not(:checked) {
-    position: absolute;
-    left: -99999px;
-}
+[type=checkbox]:not(:checked) {position: absolute; left: -99999px;}
 
 [type=checkbox]:checked + label,
 [type=checkbox]:not(:checked) + label {
@@ -109,9 +95,7 @@ h6 span {
     color: #ffeba7;
 }
 
-[type=checkbox]:checked + label span {
-    transform: translateX(44px) rotate(45deg);
-}
+[type=checkbox]:checked + label span {transform: translateX(44px) rotate(45deg);}
 
 .card-3d-wrap {
     position: relative;
@@ -155,13 +139,9 @@ h6 span {
     backface-visibility: hidden;
 }
 
-.card-back {
-    transform: rotateY(180deg);
-}
+.card-back {transform: rotateY(180deg);}
 
-[type=checkbox]:checked ~ .card-3d-wrap .card-3d-wrapper {
-    transform: rotateY(180deg)
-}
+[type=checkbox]:checked ~ .card-3d-wrap .card-3d-wrapper {transform: rotateY(180deg)}
 
 .center-wrap {
     position: absolute;
@@ -315,30 +295,17 @@ h6 span {
     box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
-.mb-4 {
-    margin-bottom: 1.5rem;
-}
+.mb-4 {margin-bottom: 1.5rem;}
 
-.pb-3 {
-    padding-bottom: 1rem;
-}
+.pb-3 {padding-bottom: 1rem;}
 
-.py-5 {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
+.py-5 {padding-top: 2rem; padding-bottom: 3rem;}
 
-.pb-5 {
-    padding-bottom: 3rem;
-}
+.pb-5 {padding-bottom: 3rem;}
 
-.pt-5 {
-    padding-bottom: 3rem;
-}
+.pt-5 {padding-bottom: 3rem;}
 
-.text-center {
-    text-align: center;
-}
+.text-center {text-align: center;}
 
 .mb-0{margin-bottom: 0;}
 
